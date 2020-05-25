@@ -289,5 +289,5 @@ discovered_current = set()
 discovered_previous = set()
 
 while True:
-    loops += run_client(adapter, loops, bluetrace_uuid_bin, discovered_current, discovered_previous, scan_timeout_s)
-    loops += run_server(adapter, loops, characteristic_buffer)
+    loops = run_client(adapter, loops, bluetrace_uuid_bin, discovered_current, discovered_previous, scan_timeout_s)
+    loops = run_server(adapter, loops, characteristic_buffer)
