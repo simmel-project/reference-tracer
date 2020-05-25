@@ -14,10 +14,7 @@ This relies on Circuit Python for NRF boards, such as [Circuit Python for Simmel
 
 The Simmel project was started on April 10, 2020 in response to a request for a hardware design proposal by NLNet. The Simmel project name comes from Georg Simmel, an early researcher into sociology and social distance theory.
 
-<center>
-<img src="https://nlnet.nl/logo/banner.png" width="20%">
-<img src="https://nlnet.nl/image/logos/NGI0_tag.png" width="20%">
-</center>
+<center><img src="https://nlnet.nl/logo/banner.png" width="20%"> <img src="https://nlnet.nl/image/logos/NGI0_tag.png" width="20%"></center>
 
 The Simmel team is funded through the [NGI0 PET
 Fund](https://nlnet.nl/PET), a fund established by NLnet with financial
