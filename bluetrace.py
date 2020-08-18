@@ -70,11 +70,11 @@ cs.switch_to_output(value=True)
 led = digitalio.DigitalInOut(board.LED)
 led.switch_to_output(value=False)
 
-i2s_lrck = digitalio.DigitalInOut(board.I2S_LRCK)
-i2s_lrck.switch_to_output(value=False)
-
-i2s_sck = digitalio.DigitalInOut(board.I2S_SCK)
-i2s_sck.switch_to_output(value=False)
+# these pins are used as I2C on DVT, but are needed for EVT
+#i2s_lrck = digitalio.DigitalInOut(board.I2S_LRCK)
+#i2s_lrck.switch_to_output(value=False)
+#i2s_sck = digitalio.DigitalInOut(board.I2S_SCK)
+#i2s_sck.switch_to_output(value=False)
 
 bluetrace_uuid_bin = unhexlify(bluetrace_uuid)
 bluetrace_uuid = _bleio.UUID(bluetrace_uuid_bin)
